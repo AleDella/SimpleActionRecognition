@@ -1,2 +1,2 @@
 # SimpleActionRecognition
-A simple action recognition system built as an excercise
+A simple action recognition system that focuses on backhand and forehand strikes in a tennis match
