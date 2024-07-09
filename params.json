@@ -1,0 +1,27 @@
+{
+    "dataset": {
+        "raw_dataset_dir": "",
+        "cropped_dataset_dir": "",
+        "classes": ["Backhand", "Forehand"],
+        "video_frames": 20,
+        "image_height": 200,
+        "image_width": 200,
+        "grayscale_images": "False"
+    },
+    "experiment": {
+        "test_dataset_size": 0.2,
+        "epochs": 40,
+        "dropout": 0.0,
+        "create_dataset_flag": "False",
+        "object_detection_flag": "False",
+        "train": "False",
+        "bag_of_words_flag": "False",
+        "lrcn_flag": "False"
+    },
+    "bow": {
+        "savename": "trained_models/BoW_model"
+    },
+    "lrcn": {
+        "savename": "trained_models/ResNetCRNN"
+    }
+}
