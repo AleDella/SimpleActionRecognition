@@ -34,7 +34,7 @@ if __name__ == '__main__':
     random.seed(seed)
 
     # Prune the classes for plotting based on n_classes
-    classes = ['Backhand', 'Forehand', 'Serve']
+    classes = ['Backhand', 'Forehand']
     classes = classes[:n_classes]
 
     if create_dataset:

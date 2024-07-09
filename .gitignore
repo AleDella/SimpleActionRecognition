@@ -1,3 +1,5 @@
 dataset/
 trained_models/
 */__pycache__
+.venv/
+.vscode/
